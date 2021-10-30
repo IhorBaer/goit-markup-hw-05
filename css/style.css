@@ -270,12 +270,12 @@ img {
   left: 0px;
   top: 0px;
   background: rgba(0, 0, 0, 0.2);
+  z-index: 3;
 }
 
 .is-hidden {
   visibility: hidden;
   opacity: 1;
-  pointer-events: ;
 }
 
 .modal {
@@ -647,8 +647,7 @@ img {
 /*footer*/
 
 .footer {
-  width: 1600px;
-  height: 256px;
+  width: 100%;
   background-color: var(--first-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
